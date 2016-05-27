@@ -1,0 +1,56 @@
+.section-one {
+	form {
+		margin-top: -35px;
+		width: 100%;
+		input {
+			&:first-child {
+				width: 88%;
+			    background-color: #fff;
+			    color: #becbd4;
+			    padding: 30px 30px;
+			    border: none;
+			    font-family: inherit;
+			    box-shadow: -1px 1px 4px rgba(0,0,0,.1);
+			}
+			&:last-child {
+				background: $main-color;
+			    font-family: $main-font;
+			    color: white;
+			    font-size: 10px;
+			    font-weight: 600;
+			    letter-spacing: 2px;
+			    border: none;
+			    width: 12%;
+			    padding: 34px 0 30px 15px;
+			    margin-left: -5px;
+			    background-image: url(../imagen/icons/search.png);
+			    background-repeat: no-repeat;
+			    background-position: 23px; 
+			}
+		}
+	}
+}
+
+.section-one .box {
+	background: #fff;
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    margin: 70px 3px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+
+    h3{
+		padding-top: 30px;
+	}
+	p {
+		@extend .main-font;
+	}
+	.iconos {
+		transition: 1.3s ease-in-out;
+
+		&:hover {
+		transform: scale(1.25);
+		}
+	}
+}

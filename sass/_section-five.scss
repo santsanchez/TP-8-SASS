@@ -1,0 +1,18 @@
+.section-five {
+	text-align:center;
+	background: #142e3f;
+	h2 {
+		color: #fff;
+	    padding: 69px 0px;
+	    font-family: "Open Sans", sans-serif;
+	    font-weight: 100;
+	    font-size: 21px;
+	    text-transform: none;
+
+		span {
+		color: $main-color-dark ;
+		font-weight: 700;
+		font-size: 25px;
+		}
+	}
+}

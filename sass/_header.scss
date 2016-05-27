@@ -1,0 +1,18 @@
+header {
+	background-image: url(../imagen/indexbanner-bg3.jpg);
+	background-size: cover;
+	h1 {
+	font-family: $secondary-font;
+	font-size: 35px;
+	color: #fff;
+	font-weight: 700;
+	padding: 170px 0 42px 135px;
+	}
+	p {
+	font-size: 15px;
+    color: $text-color;
+    line-height: 25px;
+    padding: 0 0 246px 135px;
+    width: 39%
+	}
+}

@@ -1,0 +1,58 @@
+
+
+.section-two {
+	text-align: center;
+
+	p {
+		@extend .main-font;
+	}
+
+	.cellphone {
+		margin: 50px 0;
+
+		.iphone {
+    		width: 29%
+		}
+		
+		.left {
+			float:left;
+			text-align:right;
+			width:29%;
+			padding-top:85px;
+
+			li {
+				padding-bottom:38px;
+				img {
+					float:right;
+					position:relative;
+					left:22px;
+					bottom:20px;
+					padding-bottom:1pc;
+				}
+				p {
+					@extend .main-font;
+				}
+			}
+		}
+		.right {
+			float:right;
+			text-align: left;
+			width: 29%;
+			padding-top:85px;
+
+			li {
+				padding-bottom:30px;
+				img {
+					float:left;
+					position:relative;
+					right: 22px;
+					bottom:20px;
+					padding-bottom:1pc;
+				}
+				p {
+					@extend .main-font;
+				}
+			}
+		}
+	}
+}

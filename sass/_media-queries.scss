@@ -1,0 +1,150 @@
+
+@media screen and (max-width: 986px) {
+	nav img {
+		margin-left:  10px;
+	}
+
+	nav {
+		text-align:center;
+	}
+	nav ul {
+	float:none;
+	}
+
+	nav img {
+		float:left;
+	}
+
+	header {
+		background-position: center
+	}
+	.section-one form input:first-child {
+    width: 85%;
+   	}
+
+   	.section-one .box {
+   		width: 42%;
+   		margin: 50px 0px;
+    	padding: 0px 31px;
+   	}
+
+   	.section-one, .section-three, .section-four, footer {
+   		text-align: center;
+   	}
+
+   	.section-three {
+   		background-position: center
+   	}
+
+   	.box2 {
+    width: 45%;
+
+    margin-bottom: 137px;
+	}
+
+	footer ul {
+		display:block;
+		float:none;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	nav img {
+		float:none;
+		padding: 12px 0;
+	}
+
+	nav ul {
+    padding: 20px 0;
+	}
+
+	nav ul li {
+		display: block;
+		font-size: 17px;
+		padding-bottom: 14px;
+	}
+
+	header {
+		display:none;
+	}
+	
+	.section-one form {
+	margin-top: 0px;
+	}
+
+	.section-one form input:first-child {
+    width: 75%;
+	}
+	.section-one form input:last-child {
+		width:17%;
+	}
+
+	.section-two .cellphone .left, .section-two .cellphone .right {
+	width: 100%;
+    padding-top: 40px;
+	}
+
+	.section-two .cellphone .left {
+	text-align: left;
+	}
+
+	.section-two .cellphone .right {
+	float: none;
+	}
+
+	.section-two .cellphone .left li img {
+	float: left;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    padding: 0 25px 0 20px;
+	}
+
+	.section-two .cellphone .right li img {
+		float: left;
+		position: relative;
+		right:0px;
+		bottom:0px;
+		padding: 0 25px 0 20px;
+	}
+
+	.section-two .cellphone {
+		margin: 30px 0;
+	}
+
+	.section-three {
+	
+	margin-top: 0px;
+	}
+
+	.section-three .content{
+	padding-top: 36px;
+    padding-bottom: 48px;
+	}
+	
+	.box2 {
+		margin: 40px 13px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.section-one form input:last-child {
+    width: 23%;
+	}
+	.section-one form input:first-child {
+    width: 67%;
+	}
+	.section-one .box {
+    width: 99%;
+    margin: 22px 0px;
+    padding: 0px 0px;
+	}
+	.section-two .cellphone .iphone {
+    width: 50%;
+	}
+	.box2 {
+    width: 42%;
+	}
+
+}

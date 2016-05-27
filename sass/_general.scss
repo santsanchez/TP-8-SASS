@@ -1,0 +1,44 @@
+body {
+	font-family: $main-font;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.container .content {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+h2 {
+	font-family: $main-font;
+	font-weight: 800;
+	text-transform: capitalize;
+	font-size: 30px;
+	padding-top: 30px
+}
+
+h3 {
+	font-family: $secondary-font;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+}
+
+.main-font {
+	font-size: 13px;
+	line-height: 17px;
+	padding: 25px 0 25px 0;
+	color: $text-color;
+}
